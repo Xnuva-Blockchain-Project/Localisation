@@ -1,0 +1,127 @@
+[
+  {
+    "context": "RPCConsole",
+    "old": "Network addresses that your Bitcoin node is currently using to communicate with other nodes.",
+    "template": "Network addresses that your {{project_name}} node is currently using to communicate with other nodes."
+  },
+  {
+    "context": "ModalOverlay",
+    "old": "Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.",
+    "template": "Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the {{project_name}} network, as detailed below."
+  },
+  {
+    "context": "ModalOverlay",
+    "old": "Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.",
+    "template": "Attempting to spend {{project_name}} coins that are affected by not-yet-displayed transactions will not be accepted by the network."
+  },
+  {
+    "context": "OpenURIDialog",
+    "old": "Open bitcoin URI",
+    "template": "Open {{project_name}} URI"
+  },
+  {
+    "context": "OptionsDialog",
+    "old": "Automatically open the Bitcoin client port on the router. This only works when your router supports PCP or NAT-PMP and it is enabled. The external port could be random.",
+    "template": "Automatically open the {{project_name}} client port on the router. This only works when your router supports PCP or NAT-PMP and it is enabled. The external port could be random."
+  },
+  {
+    "context": "OptionsDialog",
+    "old": "Connect to the Bitcoin network through a SOCKS5 proxy.",
+    "template": "Connect to the {{project_name}} network through a SOCKS5 proxy."
+  },
+  {
+    "context": "OptionsDialog",
+    "old": "Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.",
+    "template": "Connect to the {{project_name}} network through a separate SOCKS5 proxy for Tor onion services."
+  },
+  {
+    "context": "OverviewPage",
+    "old": "The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.",
+    "template": "The displayed information may be out of date. Your wallet automatically synchronizes with the {{project_name}} network after a connection is established, but this process has not completed yet."
+  },
+  {
+    "context": "ReceiveCoinsDialog",
+    "old": "An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.",
+    "template": "An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the {{project_name}} network."
+  },
+  {
+    "context": "SendCoinsDialog",
+    "old": "Specify a custom fee per kB (1,000 bytes) of the transaction's virtual size.\n\nNote:  Since the fee is calculated on a per-byte basis, a fee rate of \"100 satoshis per kvB\" for a transaction size of 500 virtual bytes (half of 1 kvB) would ultimately yield a fee of only 50 satoshis.",
+    "template": "Specify a custom fee per kB (1,000 bytes) of the transaction's virtual size.\n\nNote:  Since the fee is calculated on a per-byte basis, a fee rate of \"100 {{base_unit_plural}} per kvB\" for a transaction size of 500 virtual bytes (half of 1 kvB) would ultimately yield a fee of only 50 {{base_unit_plural}}."
+  },
+  {
+    "context": "SendCoinsDialog",
+    "old": "When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.",
+    "template": "When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for {{project_name}} transactions than the network can process."
+  },
+  {
+    "context": "SendCoinsEntry",
+    "old": "The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.",
+    "template": "The fee will be deducted from the amount being sent. The recipient will receive fewer {{project_name}} coins than you enter in the amount field. If multiple recipients are selected, the fee is split equally."
+  },
+  {
+    "context": "SignVerifyMessageDialog",
+    "old": "You can sign messages/agreements with your legacy (P2PKH) addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.",
+    "template": "You can sign messages/agreements with your legacy (P2PKH) addresses to prove you can receive {{project_name}} coins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to."
+  },
+  {
+    "context": "BitcoinGUI",
+    "old": "%n active connection(s) to Bitcoin network.",
+    "template": "%n active connection(s) to {{project_name}} network."
+  },
+  {
+    "context": "CoinControlDialog",
+    "old": "Can vary +/- %1 satoshi(s) per input.",
+    "template": "Can vary +/- %1 base unit(s) per input."
+  },
+  {
+    "context": "AskPassphraseDialog",
+    "old": "Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.",
+    "template": "Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer."
+  },
+  {
+    "context": "AskPassphraseDialog",
+    "old": "Warning: If you encrypt your wallet and lose your passphrase, you will <b>LOSE ALL OF YOUR BITCOINS</b>!",
+    "template": "Warning: If you encrypt your wallet and lose your passphrase, you will <b>LOSE ALL OF YOUR COINS</b>!"
+  },
+  {
+    "context": "BitcoinGUI",
+    "old": "Load Partially Signed Bitcoin Transaction",
+    "template": "Load Partially Signed Transaction (PSBT)"
+  },
+  {
+    "context": "BitcoinGUI",
+    "old": "Load Partially Signed Bitcoin Transaction from clipboard",
+    "template": "Load Partially Signed Transaction (PSBT) from clipboard"
+  },
+  {
+    "context": "BitcoinGUI",
+    "old": "Show the %1 help message to get a list with possible Bitcoin command-line options",
+    "template": "Show the %1 help message to get a list with possible {{project_name}} command-line options"
+  },
+  {
+    "context": "Intro",
+    "old": "%1 will download and store a copy of the Bitcoin block chain.",
+    "template": "%1 will download and store a copy of the {{project_name}} blockchain."
+  },
+  {
+    "context": "SendCoinsDialog",
+    "old": "Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.",
+    "template": "Creates a Partially Signed Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet."
+  },
+  {
+    "context": "SendCoinsDialog",
+    "old": "Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.",
+    "template": "Please, review your transaction proposal. This will produce a Partially Signed Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet."
+  },
+  {
+    "context": "SendCoinsDialog",
+    "old": "Please, review your transaction. You can create and send this transaction or create a Partially Signed Bitcoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.",
+    "template": "Please, review your transaction. You can create and send this transaction or create a Partially Signed Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet."
+  },
+  {
+    "context": "bitcoin-core",
+    "old": "Error: Dumpfile version is not supported. This version of bitcoin-wallet only supports version 1 dumpfiles. Got dumpfile with version %s",
+    "template": "Error: Dumpfile version is not supported. This version of {{executable_wallet}} only supports version 1 dumpfiles. Got dumpfile with version %s"
+  }
+]

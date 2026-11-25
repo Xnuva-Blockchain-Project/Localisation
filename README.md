@@ -115,3 +115,16 @@ Catalogue migration, deterministic generation, comprehensive
 validation and Qt integration remain outstanding.
 
 No cryptocurrency release or production deployment is implied.
+
+## Experimental modular localisation V1
+
+The shared localisation engine is under development as an
+independent component of the XNUVA Blockchain Project.
+
+- [Modular architecture](docs/MODULAR_LOCALISATION_V1.md)
+- [Qualification evidence](docs/QUALIFICATION_V1.md)
+
+The original inherited catalogue archive is preserved.
+
+This experimental milestone is not a production release
+and does not claim complete translation coverage.
