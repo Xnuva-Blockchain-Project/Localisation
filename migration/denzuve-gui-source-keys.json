@@ -1,0 +1,92 @@
+[
+  {
+    "file": "taox-core/src/qt/forms/debugwindow.ui",
+    "context": "RPCConsole",
+    "old": "Network addresses that your Bitcoin node is currently using to communicate with other nodes.",
+    "new": "Network addresses that your Denzuve node is currently using to communicate with other nodes."
+  },
+  {
+    "file": "taox-core/src/qt/forms/modaloverlay.ui",
+    "context": "ModalOverlay",
+    "old": "Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.",
+    "new": "Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Denzuve network, as detailed below."
+  },
+  {
+    "file": "taox-core/src/qt/forms/modaloverlay.ui",
+    "context": "ModalOverlay",
+    "old": "Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.",
+    "new": "Attempting to spend Denzuve coins that are affected by not-yet-displayed transactions will not be accepted by the network."
+  },
+  {
+    "file": "taox-core/src/qt/forms/openuridialog.ui",
+    "context": "OpenURIDialog",
+    "old": "Open bitcoin URI",
+    "new": "Open Denzuve URI"
+  },
+  {
+    "file": "taox-core/src/qt/forms/optionsdialog.ui",
+    "context": "OptionsDialog",
+    "old": "Automatically open the Bitcoin client port on the router. This only works when your router supports PCP or NAT-PMP and it is enabled. The external port could be random.",
+    "new": "Automatically open the Denzuve client port on the router. This only works when your router supports PCP or NAT-PMP and it is enabled. The external port could be random."
+  },
+  {
+    "file": "taox-core/src/qt/forms/optionsdialog.ui",
+    "context": "OptionsDialog",
+    "old": "Connect to the Bitcoin network through a SOCKS5 proxy.",
+    "new": "Connect to the Denzuve network through a SOCKS5 proxy."
+  },
+  {
+    "file": "taox-core/src/qt/forms/optionsdialog.ui",
+    "context": "OptionsDialog",
+    "old": "Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.",
+    "new": "Connect to the Denzuve network through a separate SOCKS5 proxy for Tor onion services."
+  },
+  {
+    "file": "taox-core/src/qt/forms/overviewpage.ui",
+    "context": "OverviewPage",
+    "old": "The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.",
+    "new": "The displayed information may be out of date. Your wallet automatically synchronizes with the Denzuve network after a connection is established, but this process has not completed yet."
+  },
+  {
+    "file": "taox-core/src/qt/forms/receivecoinsdialog.ui",
+    "context": "ReceiveCoinsDialog",
+    "old": "An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.",
+    "new": "An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Denzuve network."
+  },
+  {
+    "file": "taox-core/src/qt/forms/sendcoinsdialog.ui",
+    "context": "SendCoinsDialog",
+    "old": "Specify a custom fee per kB (1,000 bytes) of the transaction's virtual size.\n\nNote:  Since the fee is calculated on a per-byte basis, a fee rate of \"100 satoshis per kvB\" for a transaction size of 500 virtual bytes (half of 1 kvB) would ultimately yield a fee of only 50 satoshis.",
+    "new": "Specify a custom fee per kB (1,000 bytes) of the transaction's virtual size.\n\nNote:  Since the fee is calculated on a per-byte basis, a fee rate of \"100 Principes per kvB\" for a transaction size of 500 virtual bytes (half of 1 kvB) would ultimately yield a fee of only 50 Principes."
+  },
+  {
+    "file": "taox-core/src/qt/forms/sendcoinsdialog.ui",
+    "context": "SendCoinsDialog",
+    "old": "When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.",
+    "new": "When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for Denzuve transactions than the network can process."
+  },
+  {
+    "file": "taox-core/src/qt/forms/sendcoinsentry.ui",
+    "context": "SendCoinsEntry",
+    "old": "The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.",
+    "new": "The fee will be deducted from the amount being sent. The recipient will receive fewer Denzuve coins than you enter in the amount field. If multiple recipients are selected, the fee is split equally."
+  },
+  {
+    "file": "taox-core/src/qt/forms/signverifymessagedialog.ui",
+    "context": "SignVerifyMessageDialog",
+    "old": "You can sign messages/agreements with your legacy (P2PKH) addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.",
+    "new": "You can sign messages/agreements with your legacy (P2PKH) addresses to prove you can receive Denzuve coins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to."
+  },
+  {
+    "file": "taox-core/src/qt/bitcoingui.cpp",
+    "context": "BitcoinGUI",
+    "old": "%n active connection(s) to Bitcoin network.",
+    "new": "%n active connection(s) to Denzuve network."
+  },
+  {
+    "file": "taox-core/src/qt/coincontroldialog.cpp",
+    "context": "CoinControlDialog",
+    "old": "Can vary +/- %1 satoshi(s) per input.",
+    "new": "Can vary +/- %1 base unit(s) per input."
+  }
+]

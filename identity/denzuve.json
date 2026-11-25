@@ -1,0 +1,21 @@
+{
+    "schema_version": 1,
+    "project_id": "denzuve",
+    "project_name": "Denzuve",
+    "application_name": "Denzuve Core",
+    "organisation": "XNUVA Blockchain Project",
+    "ticker": "DZUV",
+    "base_unit_singular": "Princeps",
+    "base_unit_plural": "Principes",
+    "executables": {
+        "launcher": "denzuve",
+        "daemon": "denzuved",
+        "cli": "denzuve-cli",
+        "gui": "denzuve-qt",
+        "wallet": "denzuve-wallet",
+        "transaction": "denzuve-tx",
+        "utility": "denzuve-util"
+    },
+    "payment_uri_label": "denzuve:",
+    "fallback_language": "en"
+}
