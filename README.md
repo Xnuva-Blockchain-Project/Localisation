@@ -128,3 +128,11 @@ The original inherited catalogue archive is preserved.
 
 This experimental milestone is not a production release
 and does not claim complete translation coverage.
+
+### Shared build integration
+
+- [Experimental CMake build integration](docs/BUILD_INTEGRATION_V1.md)
+
+The shared build interface supports deterministic
+translation resource generation using project identity
+manifests and compatible application source inventories.
