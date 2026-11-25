@@ -12,6 +12,7 @@ from pathlib import Path
 from identity import load_identity
 from branding import render_mapping
 from filter_catalogues import source_inventory
+from translation_corrections import apply_translation_corrections
 
 
 MODULE = Path(__file__).resolve().parents[1]
@@ -158,6 +159,10 @@ def main():
         "--source", inherited,
         "--generated", generated,
         "--report", output / "integrity-report.json",
+    )
+
+    apply_translation_corrections(
+        generated, identity['project_id']
     )
 
     filter_arguments = [
